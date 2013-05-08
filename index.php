@@ -58,15 +58,15 @@ if($xiehouyu=="" || $id){
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
 <?
 if($xiehouyu){
-	echo "<title>".$xiehouyu." - 实用工具：名人名言大全@独山子在线_www.dsz.cc</title>";
+	echo "<title>".$xiehouyu." - 实用工具：名人名言大全</title>";
 	echo '<meta name="keywords" content="'.$xiehouyu.',歇后语,歇后语大全,站长工具,查询工具,转换工具,实用工具" />';
 }elseif($id>0 && $id<=$count){
-	echo "<title>".$detail[0]." - 实用工具：名人名言大全@独山子在线_www.dsz.cc</title>";
-	echo '<meta name="keywords" content="'.$detail[0].',名人名言,名人名言大全,名人名言名句,名人,名言,座右铭,名句,谚语,格言,站长工具,查询工具,转换工具,实用工具,www.dsz.cc" />';
-	echo '<meta name="description" content="名人（来源）：'.$detail[0].' -- 名言名句：'.trim($detail[1],"\n\r").'。名人名言,名人名言大全,名人名言名句,名人,名言,座右铭,名句,谚语,格言,独山子在线,站长工具,查询工具,转换工具,实用工具" />';
+	echo "<title>".$detail[0]." - 实用工具：名人名言大全</title>";
+	echo '<meta name="keywords" content="'.$detail[0].',名人名言,名人名言大全,名人名言名句,名人,名言,座右铭,名句,谚语,格言,站长工具,查询工具,转换工具,实用工具" />';
+	echo '<meta name="description" content="名人（来源）：'.$detail[0].' -- 名言名句：'.trim($detail[1],"\n\r").'。名人名言,名人名言大全,名人名言名句,名人,名言,座右铭,名句,谚语,格言,站长工具,查询工具,转换工具,实用工具" />';
 }else{
-	echo "<title>实用工具：名人名言大全@独山子在线_www.dsz.cc</title>";
-	echo '<meta name="keywords" content="名人名言,名人名言大全,名人名言名句,名人,名言,座右铭,名句,谚语,格言,站长工具,查询工具,转换工具,实用工具,www.dsz.cc" />';
+	echo "<title>实用工具：名人名言大全</title>";
+	echo '<meta name="keywords" content="名人名言,名人名言大全,名人名言名句,名人,名言,座右铭,名句,谚语,格言,站长工具,查询工具,转换工具,实用工具" />';
 	echo '<meta name="description" content="名人名言指名人所说的话，广泛上来说是比较有名的话与有意义的话，名人所说的谚语，格言等都可以叫名人名言。" />';
 }
 ?>
